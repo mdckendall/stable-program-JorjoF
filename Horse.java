@@ -1,5 +1,3 @@
-import org.w3c.dom.views.DocumentView;
-
 public class Horse{
     private String name;
     private double weight;

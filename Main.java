@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 class Main {
@@ -27,6 +26,7 @@ class Main {
 				break;
 			}
 		}while(true);
+		scanner.close();
 		//Display the info here
                 //You code here!
 				int i = 1;
