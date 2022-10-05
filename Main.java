@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 class Main {
@@ -20,7 +21,7 @@ class Main {
 				System.out.println("Enter true if the horse is tame or false if it is not.");
 				boolean t = scanner.nextBoolean();
 				h = new Horse(hn, w, t);
-				s.arrayList.add(h);
+				s.horse.add(h);
 			}//testing goodest 4
 			else{
 				break;
@@ -28,6 +29,10 @@ class Main {
 		}while(true);
 		//Display the info here
                 //You code here!
+				int i = 1;
+				for(Horse horse: s.horse){
+					System.out.println("Horse #"+ i + " Name: " +horse.getName() + " Weight: " + horse.getWeight() + " Tame: " + horse.getTame());
+					i++;
+				}
 	  }
   }
-}
